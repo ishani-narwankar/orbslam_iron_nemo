@@ -22,6 +22,9 @@ This repo makes use of the ORB_SLAM2 package which can be found here: https://gi
 - cd into rosbag folder
 - ```ros2 bag play [rosbag file folder] --remap /video_frames:=/camera /camera_info:=/camera/camera_info```
 
+*to run test orbslam on a livestream from realsense camera plugged into laptop*
+- `ros2 run realsense2_camera realsense2_camera_node --ros-args --remap /color/image_rect_raw:=/camera`
+
 ## Notes
 make sure to remap the following topics
 
