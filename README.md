@@ -1,6 +1,10 @@
 # ORB_SLAM2 Configuration for Nemo AUV Project
 This repo includes all of the packages needed and adjusted to work on ros2 iron with camera calibration specifically for my independent research project nemo AUV which you can read more about here: https://github.com/ishani-narwankar/nemo_auv
 
+## Reference Repos
+This repo makes use of the ORB_SLAM2 package which can be found here: https://github.com/raulmur/ORB_SLAM2 and the ros2_ORB_SLAM2 package which can be found here: https://github.com/alsora/ros2-ORB_SLAM2/tree/master
+
+
 ## Launch
 
 ### Terminal 1
